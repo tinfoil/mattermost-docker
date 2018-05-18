@@ -87,9 +87,9 @@ services:
     env_file:
       - "./volumes/giphy-integration/env"
 
-  jira-matter-bridge:
+  jira-integration:
     restart: unless-stopped
-    image: vrenjith/jira-matter-bridge
+    image: tinfoil/mattermost-jira-integration
     expose:
       - 3000
     environment:
