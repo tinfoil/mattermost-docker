@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: master
+    upstream: mattermost:master
+    autoMerge: false
+    autoMergeHardReset: false
